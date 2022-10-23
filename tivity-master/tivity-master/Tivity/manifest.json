@@ -1,0 +1,17 @@
+{
+  "name": "Tivity",
+  "description": "Promotes positive productivity.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Tivity",
+
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}

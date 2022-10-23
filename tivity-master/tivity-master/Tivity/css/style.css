@@ -1,0 +1,71 @@
+body {
+    position: relative;
+    width: 450px;
+    font-family: 'SF Pro Display';
+    background: #D7DDF4;
+    border-radius: 100px;
+}
+
+div {
+    max-width: 100%;
+}
+
+button {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  background-color: #707cdf;
+  border-radius: 29px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  height: 36px;
+  width: 200px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #707cdf;
+}
+
+.profile-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.handle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #989DC8;
+}
+
+.status {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #707cdf;
+}
+
+.streak {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #989DC8;
+}
+
+#hooray {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
